@@ -1,7 +1,7 @@
 // Author : Shubhanshu Singh
 // Date   : 16-06-2020
 
-/************************************Approach 2 using hashing ( Works only for negative numbers also )*******************/
+/************************************Approach 2 using hashing ( Works for negative numbers also )*******************/
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
