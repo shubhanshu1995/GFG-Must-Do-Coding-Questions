@@ -12,7 +12,5 @@ GeeksForGeeks Must Do Coding Questions
 ---
 | Index | Problem Link | Solution | Difficulty | Tags | Time Complexity | Space Complexity |
 |---| ----- | -------- | ---------- | -------------- | -----------------------|-------------------|
-|1|[Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | - [C++ Approach 1](./Arrays/cpp/SubarrayWithGivenSumApproach1.cpp)
-- [C++ Approach 2](./Arrays/cpp/SubarrayWithGivenSumApproach2.cpp)|Easy|Arrays, Sliding Window, Hashing| O(n) | - O(1) using sliding window 
-- O(n) using hashing| 
+|1|[Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | 1) [C++ Approach 1](./Arrays/cpp/SubarrayWithGivenSumApproach1.cpp) <br/> 2) [C++ Approach 2](./Arrays/cpp/SubarrayWithGivenSumApproach2.cpp)|Easy|Arrays, Sliding Window, Hashing| O(n) | 1) O(1) using sliding window <br/> 2) O(n) using hashing| 
 
