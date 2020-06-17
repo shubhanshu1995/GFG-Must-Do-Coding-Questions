@@ -12,8 +12,8 @@ GeeksForGeeks Must Do Coding Questions
 ---
 | Index | Problem Link | Solution | Difficulty | Tags | Time Complexity | Space Complexity |
 |---| ----- | -------- | ---------- | -------------- | -----------------------|-------------------|
-|1.|[Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | [C++ Approach 1](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach1.cpp) <br/>[C++ Approach 2](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach2.cpp)|Easy|Arrays, Sliding Window, Hashing| O(n) | O(1) using sliding window <br/> O(n) using hashing|
-|2.|[Number of Subarrays with given sum](https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum/0) | [C++](./Arrays/NumberOfSubarraysWithGivenSum/cpp/NumberOfSubarraysWithGivenSum.cpp)|Easy|Arrays,Hashing| O(n) | O(n) | 
+|1.|[Subarray with a given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | [C++ Approach 1](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach1.cpp) <br/>[C++ Approach 2](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach2.cpp)|Easy|Arrays, Sliding Window, Hashing| O(n) | O(1) using sliding window <br/> O(n) using hashing|
+|2.|[Number of Subarrays with a given sum](https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum/0) | [C++](./Arrays/NumberOfSubarraysWithGivenSum/cpp/NumberOfSubarraysWithGivenSum.cpp)|Easy|Arrays, Hashing| O(n) | O(n) | 
 
 
 
