@@ -16,9 +16,9 @@ int main()
     
     while(t--)
     {
-        long long N,S;
+        long long N,Sum;
         
-        cin >> N >> S;
+        cin >> N >> Sum;
         
         vector<long long> vec;
         
@@ -38,12 +38,12 @@ int main()
         for (long long i = 0; i < N; i++) { 
             curr_sum = curr_sum + vec[i];
             
-            while (curr_sum > S ) { 
+            while (curr_sum > Sum ) { 
                 curr_sum = curr_sum - vec[start]; 
                 start++; 
             } 
       
-            if (curr_sum == S) { 
+            if (curr_sum == Sum) { 
                 cout << start + 1 << " " << i + 1 << endl; 
                 flag = 1;
                 break;
@@ -54,5 +54,5 @@ int main()
             cout << -1 << endl;
         
     }
-	return 0;
+    return 0;
 }

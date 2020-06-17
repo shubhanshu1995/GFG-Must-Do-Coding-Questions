@@ -1,13 +1,15 @@
 // Author : Shubhanshu Singh
-// Date   : 16-06-2020
+// Date   : 17-06-2020
 
-/************************************Approach 2 using hashing ( Works for negative numbers also )*******************/
+/************************************using hashing ( Works for negative numbers also )*******************/
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 
+
+/***************NEVER GIVE UP :) **********************************/
+
 #include<bits/stdc++.h>
 using namespace std;
-
 
 int main()
 {
@@ -18,7 +20,7 @@ int main()
     {
         long long N,Sum;
         
-        cin >> N >> Sum;
+        cin >> N;
         
         vector<long long> vec;
         
@@ -29,31 +31,25 @@ int main()
             vec.push_back(x); 
         }
         
+        cin >> Sum;
+        
         unordered_map<int,int> mp;
         
         long long currSum = 0;
-        bool flag = 0;
+        long long cnt = 0;
         for(long long i=0;i<N;++i)
         {
             currSum = currSum + vec[i];
             
             if( currSum == Sum )
-            {
-                cout << 1 << " " << i + 1 << endl; 
-                flag = 1;
-                break;
-            }
+                cnt++;  
                 
             if( mp.find(currSum - Sum) != mp.end() )
-            {
-                cout << mp[currSum - Sum]+2 << " " << i + 1 << endl; 
-                flag = 1;
-                break;
-            }
-            mp[currSum] = i;
+                cnt += mp[currSum - Sum];
+            
+            mp[currSum]++;
         }
-        if(!flag)
-            cout<< -1 << endl;
+        cout << cnt << endl;
     }
-    return 0;
+	return 0;
 }
