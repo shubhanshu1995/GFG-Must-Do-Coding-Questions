@@ -14,7 +14,7 @@ GeeksForGeeks Must Do Coding Questions
 |---| ----- | -------- | ---------- | -------------- | -----------------------|-------------------|
 |1.|[Subarray with a given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | [C++ Approach 1](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach1.cpp) <br/>[C++ Approach 2](./Arrays/SubarrayWithGivenSum/cpp/SubarrayWithGivenSumApproach2.cpp)|Easy|Arrays, Sliding Window, Hashing| O(n) | O(1) using sliding window <br/> O(n) using hashing|
 |2.|[Number of Subarrays with a given sum](https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum/0) | [C++](./Arrays/NumberOfSubarraysWithGivenSum/cpp/NumberOfSubarraysWithGivenSum.cpp)|Easy|Arrays, Hashing| O(n) | O(n) | 
-
+|3.|[Triplet sum in array](https://practice.geeksforgeeks.org/problems/triplet-sum-in-array/0) | [C++ Approach 1](./Arrays/TripletSumInArray/cpp/TripletSumInArrayApproach1.cpp) <br/>[C++ Approach 2](./Arrays/SubarrayWithGivenSum/cpp/TripletSumInArrayApproach2.cpp)|Easy|Arrays, two-pointers, Hashing| O(n^2) | O(1) using two-pointers technique <br/> O(n) using hashing|
 
 
 
