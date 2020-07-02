@@ -16,7 +16,8 @@ GeeksForGeeks Must Do Coding Questions
 |2.|[Number of Subarrays with a given sum](https://practice.geeksforgeeks.org/problems/subarray-range-with-given-sum/0) | [C++](./Arrays/NumberOfSubarraysWithGivenSum/cpp/NumberOfSubarraysWithGivenSum.cpp)|Easy|Arrays, Hashing| O(n) | O(n) | 
 |3.|[Triplet sum in array](https://practice.geeksforgeeks.org/problems/triplet-sum-in-array/0) | [C++ Approach 1](./Arrays/TripletSumInArray/cpp/TripletSumInArrayApproach1.cpp), [C++ Approach 2](./Arrays/TripletSumInArray/cpp/TripletSumInArrayApproach2.cpp)|Easy|Arrays, Sorting, two-pointers, Hashing| O(n^2) | O(1) using two-pointer-algorithm, O(n) using hashing|
 |4.|[Count the triplets (Check whether sum of two elements equals the third element)](https://practice.geeksforgeeks.org/problems/count-the-triplets/0) | [C++](./Arrays/CountTheTriplets/cpp/CountTheTriplets.cpp)|Easy|Arrays, Sorting, two-pointer-algorithm| O(n^2) | O(1) |
-|5.|[Kadane's Algorithm (Find the contiguous sub-array with maximum sum.)](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) | [C++](./Arrays/KadanesAlgorithm/cpp/KadanesAlgorithm.cpp)|Medium|Arrays, Dynamic Programming| O(n) | O(1) |
+|5.|[Kadane's Algorithm (Find the contiguous sub-array with maximum sum)](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) | [C++](./Arrays/KadanesAlgorithm/cpp/KadanesAlgorithm.cpp)|Medium|Arrays, Dynamic Programming| O(n) | O(1) |
+|6.|[Missing number in array)](https://practice.geeksforgeeks.org/problems/missing-number-in-array/0) | [C++ Approach 1](./Arrays/finfTheMissingNumber/cpp/findTheMissingNumberUsingXorApproach.cpp), [C++ Approach 2](./Arrays/finfTheMissingNumber/cpp/findTheMissingNumberUsingSumApproach.cpp)|Easy|Arrays, Bit Magic| O(n) | O(1) |
 
 
 
