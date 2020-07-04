@@ -18,6 +18,7 @@ GeeksForGeeks Must Do Coding Questions
 |4.|[Count the triplets (Check whether sum of two elements equals the third element)](https://practice.geeksforgeeks.org/problems/count-the-triplets/0) | [C++](./Arrays/CountTheTriplets/cpp/CountTheTriplets.cpp)|Easy|Arrays, Sorting, two-pointer-algorithm| O(n^2) | O(1) |
 |5.|[Kadane's Algorithm (Find the contiguous sub-array with maximum sum)](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) | [C++](./Arrays/KadanesAlgorithm/cpp/KadanesAlgorithm.cpp)|Medium|Arrays, Dynamic Programming| O(n) | O(1) |
 |6.|[Missing number in array](https://practice.geeksforgeeks.org/problems/missing-number-in-array/0) | [C++ Approach 1](./Arrays/findTheMissingNumber/cpp/findTheMissingNumberUsingXorApproach.cpp), [C++ Approach 2](./Arrays/findTheMissingNumber/cpp/findTheMissingNumberUsingSumApproach.cpp)|Easy|Arrays, Bit Magic| O(n) | O(1) |
+|7.|[Merge two sorted arrays without extra space](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/0) | [C++ Approach 1](./Arrays/MergeWithoutExtraSpace/cpp/MergeWithoutExtraSpaceApproach1.cpp), [C++ Approach 2](./Arrays/MergeWithoutExtraSpace/cpp/MergeWithoutExtraSpaceApproach2.cpp), [C++ Approach 3](./Arrays/MergeWithoutExtraSpace/cpp/MergeWithoutExtraSpaceApproach3.cpp)|Hard|Arrays, Sorting, Heap| O(nlogn) + O(mlogm) using two pointers, O(mlogn) + O(nlogn) using heap | O(1) |
 
 
 
