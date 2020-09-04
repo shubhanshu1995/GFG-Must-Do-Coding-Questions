@@ -1,6 +1,6 @@
 // Problem Link: https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0
 
-// Using Bottom Up Approach ( Recursion with Memoization )
+// Using Bottom Up Approach ( Tabulation )
 
 // Time Complexity: O(N*W).
 // where ‘N’ is the number of weight element and ‘W’ is capacity. As for every weight element we traverse through all weight capacities 1<=w<=W.
