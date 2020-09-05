@@ -43,12 +43,12 @@ int SubsetSum(int arr[],int Range,int n)
   
 //   for(int j=0;j<=Range/2;++j)
 //     if(t[n][j] == true)
-//         vec.push_back(t[n][j]);
+//         vec.push_back(j);
     
   int mn = INT_MAX;
   
 //   for(int i=0;i<vec.size();++i)
-//     mn = min(mn,Range - 2*i);
+//     mn = min(mn,Range - 2*vec[i]);
 
 // More efficient way
   for(int j = Range/2;j>=0;--j)
