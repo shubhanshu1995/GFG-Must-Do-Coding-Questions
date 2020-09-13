@@ -3,12 +3,10 @@ Problem Link : https://practice.geeksforgeeks.org/problems/remove-loop-in-linked
 
 Using Floyd's Cycle detection algorithm
 Slow Pointer & Fast Pointer Concept
+*/
 
-/*
 
-
-/*
-structure of linked list node:
+/* structure of linked list node: */
 
 struct Node
 {
@@ -21,8 +19,6 @@ struct Node
         next = NULL;
     }
 };
-
-*/
 
 void removeLoop(Node* head)
 {

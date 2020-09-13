@@ -16,10 +16,10 @@ Challenge : Try to solve the problem without using any extra space.
 Expected Time Complexity: O(N+M)
 Expected Auxiliary Space: O(1)
 
-/*
+*/
 
 
-/* Linked List Node
+/* Linked List Node */
 struct Node {
   int data;
   struct Node *next;
@@ -27,7 +27,7 @@ struct Node {
     data = x;
     next = NULL;
   }
-}; */
+};
 
 
 int getLength(struct Node* head) 

@@ -10,16 +10,19 @@ Explanation: After sorting the given
 linked list, the resultant Linked List
 will be 1->2->3->4->5.
 
-/*
+*/
 
-/* Structure of the linked list node is as
+/* Structure of the linked list node is as */
 struct Node 
 {
     int data;
     struct Node* next;
-    Node(int x) { data = x;  next = NULL; }
+    Node(int x) 
+    { 
+        data = x;  
+        next = NULL; 
+    }
 };
-*/
 
 Node* merge(Node* l1,Node* l2)
 {

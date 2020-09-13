@@ -5,15 +5,13 @@ Recursive Approach
 */
 
 
-/* Linked List Node structure:
+/* Linked List Node structure: */
 
 struct Node
 {
     int data;
     struct Node *next;
-}
-
-*/
+};
 
 // Should reverse list and return new head.
 struct Node* reverseList(struct Node *head)

@@ -27,7 +27,7 @@ Expected Auxiliary Space: O(1)
 */
 
 
-/* Node structure  used in the program
+/* Node structure  used in the program */
 
 struct Node{
     int data;
@@ -41,7 +41,6 @@ struct Node{
     }
     
 };
-*/
 
 /***************** This Code uses Merge procedure of Merge Sort of Linked List *************************************/
 

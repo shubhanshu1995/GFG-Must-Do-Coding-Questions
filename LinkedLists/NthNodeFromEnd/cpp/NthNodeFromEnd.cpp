@@ -22,10 +22,10 @@ Try to solve in single traversal.
 Expected Time Complexity: O(N).
 Expected Auxiliary Space: O(1).
 
-/*
+*/
 
 
-/* struct Node {
+struct Node {
   int data;
   struct Node *next;
   Node(int x) {
@@ -33,7 +33,6 @@ Expected Auxiliary Space: O(1).
     next = NULL;
   }
 };
-*/
 
 /* Should return data of n'th node from the end of linked list.
 *  head: head of the linked list

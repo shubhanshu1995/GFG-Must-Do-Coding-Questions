@@ -4,7 +4,7 @@ Problem Link : https://practice.geeksforgeeks.org/problems/detect-loop-in-linked
 Using Floyd's Cycle detection algorithm
 Slow Pointer & Fast Pointer Concept
 
-/*
+*/
 
 struct Node
 {
@@ -14,8 +14,7 @@ struct Node
         data = x;
         next = NULL;
     }
-
-*/
+};
 
 
 bool detectLoop(Node* head)

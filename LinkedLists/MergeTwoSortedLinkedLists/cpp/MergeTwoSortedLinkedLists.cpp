@@ -15,10 +15,10 @@ output.
 
 Expected Time Complexity : O(n+m)
 Expected Auxilliary Space : O(1)
-/*
+*/
 
 
-/* Link list Node
+/* Link list Node */
 struct Node {
   int data;
   struct Node *next;
@@ -28,7 +28,6 @@ struct Node {
     next = NULL;
   }
 };
-*/
 
 /***************** This Code uses Merge procedure of Merge Sort of Linked List *************************************/
 

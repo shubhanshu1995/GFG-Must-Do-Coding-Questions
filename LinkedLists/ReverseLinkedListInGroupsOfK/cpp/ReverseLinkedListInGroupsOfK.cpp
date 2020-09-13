@@ -9,20 +9,17 @@ K = 4
 Output: 4->2->2->1->8->7->6->5
 */
 
+struct node
+{
+    int data;
+    struct node* next;
 
-/*
-    struct node
-    {
-        int data;
-        struct node* next;
-    
-        node(int x){
-            data = x;
-            next = NULL;
-        }
-    
-    }*head;
-*/
+    node(int x){
+        data = x;
+        next = NULL;
+    }
+
+}*head;
 
 struct node *reverse (struct node *head, int k)
 { 

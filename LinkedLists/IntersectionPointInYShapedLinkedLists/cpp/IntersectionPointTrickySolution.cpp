@@ -16,11 +16,11 @@ Challenge : Try to solve the problem without using any extra space.
 Expected Time Complexity: O(N+M)
 Expected Auxiliary Space: O(1)
 
-/*
+*/
 
 /********************* This Method is tricky one, doesn't work when data is zero or negative*********************/ 
 
-/* Linked List Node
+/* Linked List Node */
 struct Node {
   int data;
   struct Node *next;
@@ -28,7 +28,7 @@ struct Node {
     data = x;
     next = NULL;
   }
-}; */
+};
 
 /* Should return data of intersection point of two linked
    lists head1 and head2.

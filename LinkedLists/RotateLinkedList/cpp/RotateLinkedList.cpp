@@ -8,9 +8,6 @@ k = 4
 Output: 5 6 7 8 1 2 3 4
 */
 
-
-/*
-
 struct Node {
     int data;
     struct Node *next;
@@ -19,8 +16,6 @@ struct Node {
         next = NULL;
     }
 };
-
-*/
 
 // This function should rotate list counter-clockwise
 // by k and return new head (if changed)

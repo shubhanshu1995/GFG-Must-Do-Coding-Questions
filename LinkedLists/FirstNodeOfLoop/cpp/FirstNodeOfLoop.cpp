@@ -4,7 +4,7 @@ Problem Link : https://www.geeksforgeeks.org/find-first-node-of-loop-in-a-linked
 Using Floyd's Cycle detection algorithm
 Slow Pointer & Fast Pointer Concept
 
-/*
+*/
 
 struct Node
 {
@@ -14,8 +14,7 @@ struct Node
         data = x;
         next = NULL;
     }
-
-*/
+};
 
 
 
