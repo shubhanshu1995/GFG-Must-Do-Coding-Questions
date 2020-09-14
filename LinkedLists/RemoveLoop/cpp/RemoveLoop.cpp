@@ -46,22 +46,21 @@ void removeLoop(Node* head)
     // If loop does not exist
     if (slowPtr != fastPtr)
         return;
- 
-    // If loop exists. Start slowPtr from
-    // head and fastPtr from meeting point.
-
-    slowPtr = head;
-    Node *prevFastPtr = NULL;
-    bool flag = false;
-    while (slowPtr != fastPtr) {
-        slowPtr = slowPtr->next;
-        prevFastPtr = fastPtr;
-        fastPtr = fastPtr->next;
-        flag = true;
-    }
     
-    if(!flag) // When loop ends at head node i.e. last node points to first node 
-        prevSlowPtr->next = NULL;
+    // When loop ends at head node i.e. last node points to first node 
+    if(fastPtr == head)
+        prevSlowPtr->next = NULL; 
     else
-        prevFastPtr->next = NULL;
+    {
+        // If loop exists. Start slowPtr from
+        // head and fastPtr from meeting point.
+        slowPtr = head;
+        while (slowPtr->next != fastPtr->next) 
+        {
+            slowPtr = slowPtr->next;
+            fastPtr = fastPtr->next;
+        }
+        fastPtr->next = NULL;
+    }
+   
 }

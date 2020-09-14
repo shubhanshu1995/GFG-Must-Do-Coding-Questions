@@ -27,10 +27,9 @@ Node* FirstNodeInLoop(Node* head)
  
     Node *slowPtr = head;
     Node *fastPtr = head;
-    Node *prevSlowPtr = NULL;
+
     while(fastPtr !=NULL && slowPtr !=NULL && fastPtr->next != NULL)
     {
-        prevSlowPtr = slowPtr;
         slowPtr = slowPtr->next;
         fastPtr = fastPtr->next->next;
         
@@ -46,17 +45,10 @@ Node* FirstNodeInLoop(Node* head)
     // head and fastPtr from meeting point.
 
     slowPtr = head;
-    Node *prevFastPtr = NULL;
-    bool flag = false;
     while (slowPtr != fastPtr) {
         slowPtr = slowPtr->next;
-        prevFastPtr = fastPtr;
         fastPtr = fastPtr->next;
-        flag = true;
     }
     
-    if(!flag) // When loop ends at head node i.e. last node points to first node 
-        return head;
-    else
-        return slowPtr;
+    return slowPtr;
 }
