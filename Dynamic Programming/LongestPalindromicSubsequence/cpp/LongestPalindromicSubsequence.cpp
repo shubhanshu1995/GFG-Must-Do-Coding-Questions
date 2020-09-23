@@ -1,7 +1,17 @@
 /*
-Problem Link: https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
+Problem Link: https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
+
+Longest Palindromic Subsequence
 
 Using Bottom Up Approach ( Tabulation )
+
+Example:
+Input:
+1
+GEEKSFORGEEKS
+
+Output:
+5
 
 Time Complexity: O(m*n)
 Space Complexity: O(m*n)
@@ -28,7 +38,7 @@ int LCS(string x,string y,int m,int n)
             else
                 t[i][j] = max( t[i][j-1],
                                t[i-1][j] );
-    
+                               
     return t[m][n];
 }
 
@@ -39,14 +49,19 @@ int main()
     
     while(T--)
     {
-        int m,n;
-        cin >> m >> n;
+        int m;
         
         string x,y;
-        cin >> x >> y;
+        cin >> x;   
         
-        int length_of_LCS = LCS(x,y,m,n);
-        cout << length_of_LCS << endl;
+        m = x.size();
+        y = x;
+        
+        reverse(y.begin(),y.end());
+        
+        int length_of_LPS = LCS(x,y,m,m);
+        
+        cout<<length_of_LPS<<endl;
     }
 	return 0;
 }

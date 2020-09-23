@@ -1,7 +1,7 @@
 /*
 Problem Link: https://practice.geeksforgeeks.org/problems/longest-common-substring/0
 
-Using Bottom Up Approach ( Tabulaton )
+Using Bottom Up Approach ( Tabulation )
 
 Length of Longest Common Substring ------> Variation of LCS
 

@@ -1,7 +1,18 @@
 /*
-Problem Link: https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
+Problem Link: https://practice.geeksforgeeks.org/problems/minimum-deletitions/0
+
+Minimum number of deletions to make string palindrome 
 
 Using Bottom Up Approach ( Tabulation )
+
+Example:
+Input:
+2
+aebcbda
+geeksforgeeks
+Output:
+2
+8
 
 Time Complexity: O(m*n)
 Space Complexity: O(m*n)
@@ -28,7 +39,7 @@ int LCS(string x,string y,int m,int n)
             else
                 t[i][j] = max( t[i][j-1],
                                t[i-1][j] );
-    
+                               
     return t[m][n];
 }
 
@@ -39,14 +50,21 @@ int main()
     
     while(T--)
     {
-        int m,n;
-        cin >> m >> n;
+        int m;
         
         string x,y;
-        cin >> x >> y;
+        cin >> x;
         
-        int length_of_LCS = LCS(x,y,m,n);
-        cout << length_of_LCS << endl;
+        m = x.size();
+        y = x;
+        
+        reverse(y.begin(),y.end());
+        
+        int length_of_LPS = LCS(x,y,m,m);
+        
+        int min_number_of_deletions = m - length_of_LPS;
+        
+        cout<<min_number_of_deletions<<endl;
     }
 	return 0;
 }

@@ -41,8 +41,8 @@ int main()
         string x,y;
         cin >> x >> y;
         
-        int lenght_of_LCS = LCS(x,y,m,n);
-        cout << lenght_of_LCS << endl;
+        int length_of_LCS = LCS(x,y,m,n);
+        cout << length_of_LCS << endl;
     }
 	return 0;
 }

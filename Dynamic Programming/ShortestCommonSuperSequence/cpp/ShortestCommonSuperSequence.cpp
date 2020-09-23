@@ -1,7 +1,21 @@
 /*
-Problem Link: https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0
+Problem Link: https://practice.geeksforgeeks.org/problems/shortest-common-supersequence/0
 
 Using Bottom Up Approach ( Tabulation )
+
+Example:
+Input:
+2
+abcd xycd
+efgh jghi
+
+Output:
+6
+6
+
+Constraints:
+1 <= T <= 100
+1<= |str1|, |str2| <= 100
 
 Time Complexity: O(m*n)
 Space Complexity: O(m*n)
@@ -40,13 +54,17 @@ int main()
     while(T--)
     {
         int m,n;
-        cin >> m >> n;
         
         string x,y;
         cin >> x >> y;
         
+        m= x.size();
+        n = y.size();
+        
         int length_of_LCS = LCS(x,y,m,n);
-        cout << length_of_LCS << endl;
+        
+        //printing length of shortest common SuperSequence
+        cout << m + n - length_of_LCS << endl;
     }
 	return 0;
 }
